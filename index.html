@@ -3,76 +3,102 @@
 <head>
   <meta charset="UTF-8">
   <title>SPACEDAX - Portafolio de Marcelo A. Mussa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
       margin: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
     }
     header {
-      background-color: #0a2540;
-      color: white;
-      padding: 20px;
+      background-color: rgba(0,0,0,0.6);
+      padding: 30px;
       text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      backdrop-filter: blur(10px);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 5px;
+      font-size: 1.1em;
+      color: #ddd;
     }
     nav {
-      background-color: #133b5c;
       display: flex;
       justify-content: center;
-      padding: 10px;
+      gap: 30px;
+      padding: 10px 0;
+      background-color: #112;
     }
     nav a {
-      color: white;
-      margin: 0 15px;
+      color: #fff;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 600;
+      transition: color 0.3s;
     }
     nav a:hover {
-      text-decoration: underline;
+      color: #00d4ff;
     }
     main {
       max-width: 1000px;
-      margin: 30px auto;
+      margin: 40px auto;
       padding: 20px;
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.3);
     }
     h2 {
-      color: #0a2540;
+      color: #00d4ff;
+      margin-top: 0;
     }
     iframe {
       width: 100%;
       height: 600px;
       border: none;
       margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
     }
     .contacto {
       margin-top: 40px;
     }
     input, textarea, button {
-      display: block;
       width: 100%;
-      padding: 10px;
+      padding: 12px;
       margin-bottom: 15px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
+      border-radius: 8px;
+      border: none;
+      font-family: 'Poppins', sans-serif;
+    }
+    input, textarea {
+      background-color: #fff;
+      color: #000;
     }
     button {
-      background-color: #0a2540;
-      color: white;
-      border: none;
+      background-color: #00d4ff;
+      color: #000;
+      font-weight: bold;
       cursor: pointer;
+      transition: background-color 0.3s;
     }
     button:hover {
-      background-color: #133b5c;
+      background-color: #00b3cc;
     }
     footer {
       text-align: center;
-      padding: 15px;
-      background-color: #0a2540;
-      color: white;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.6);
+      font-size: 0.9em;
       margin-top: 40px;
     }
   </style>
@@ -92,8 +118,8 @@
 
   <main>
     <section id="informe">
-      <h2>Informe Power BI - Empresa MM</h2>
-      <p><strong>Descripción:</strong> Este dashboard analiza los indicadores clave del proyecto Empresa MM durante el año 2025.</p>
+      <h2>Dashboard Power BI - Empresa MM</h2>
+      <p><strong>Objetivo:</strong> Visualizar indicadores clave de gestión de la Empresa MM en el año 2025. Este informe fue desarrollado con Power BI y publicado a través de Power BI Service para su integración web.</p>
 
       <iframe 
         title="Empresa-MM - Proyecto Marecelo A. Mussa"
@@ -104,7 +130,7 @@
 
     <section class="contacto" id="contacto">
       <h2>Contacto</h2>
-      <p>¿Querés trabajar conmigo o conocer más de mis proyectos?</p>
+      <p>¿Te interesa mi trabajo? ¡Conectemos!</p>
       <form>
         <input type="text" placeholder="Tu nombre" required>
         <input type="email" placeholder="Tu email" required>
@@ -115,7 +141,7 @@
   </main>
 
   <footer>
-    © 2025 - Marcelo A. Mussa | SPACEDAX
+    © 2025 - Marcelo A. Mussa · SPACEDAX · Hecho con ❤️ y datos
   </footer>
 
 </body>
