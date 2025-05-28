@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portafolio Power BI - Marcelo A. Mussa</title>
+</head>
+<body>
+  <h1>Portafolio-personal</h1>
+  <p>Dashboards interactivos Power BI</p>
+
+  <h2>Empresa-MM - Proyecto Marcelo A. Mussa</h2>
+
+  <iframe 
+    title="Empresa-MM - Proyecto Marecelo A. Mussa"
+    width="1000" height="600"
+    src="https://app.powerbi.com/view?r=eyJrIjoiOTM1YTY2ZDAtNzFmOC00MTY1LThiNTgtYTZhNWUwZGM1ZGI2IiwidCI6IjYxNzJiMGVlLTAwNmQtNDJkMS1iMjVjLThmNWNiMjNlMzVhNCIsImMiOjR9"
+    frameborder="0" allowFullScreen="true">
+  </iframe>
+
+</body>
+</html>
