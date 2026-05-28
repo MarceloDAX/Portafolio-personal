@@ -8,6 +8,10 @@
   <h1>Portafolio-personal</h1>
   <p>Dashboards interactivos Power BI</p>
 
+<a href="https://app.powerbi.com/view?r=eyJrIjoiOTM1YTY2ZDAtNzFmOC00MTY1LThiNTgtYTZhNWUwZGM1ZGI2IiwidCI6IjYxNzJiMGVlLTAwNmQtNDJkMS1iMjVjLThmNWNiMjNlMzVhNCIsImMiOjR9" target="_blank">
+  <button>Ver dashboard en Power BI</button>
+</a>
+
   <h2>Empresa-MM - Proyecto Marcelo A. Mussa</h2>
 
   <iframe 
